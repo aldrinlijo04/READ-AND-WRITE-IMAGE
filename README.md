@@ -8,17 +8,26 @@ iii) Cut and paste a small portion of the image.
 ## Software Required:
 Anaconda - Python 3.7
 ## Algorithm:
-### Step1:
-Choose an image and save it as a filename.jpg
-### Step2:
-Use imread(filename, flags) to read the file.
-### Step3:
-Use imshow(window_name, image) to display the image.
-### Step4:
-Use imwrite(filename, image) to write the image.
-### Step5:
-End the program and close the output image windows.
+### Step 1:
+          - Initialize the process by selecting an image and assigning it a meaningful filename, preferably in a format like "filename.jpg".
+
+### Step 2:
+          -Utilize the imread function from the OpenCV library, passing the chosen filename and appropriate flags to read the image data. Store this image data in a variable.
+
+### Step 3:
+          - Display the read image using the imshow function, providing a relevant window name and the image data obtained from the previous step. This action will create a graphical user interface window showing the image.
+
+### Step 4:
+          - If required, perform any necessary operations or modifications on the image data at this stage.
+
+### Step 5:
+          - For archival or processing purposes, use the imwrite function from OpenCV to save the modified image. Provide a filename and the modified image data to this function.
+
+### Step 6:
+Conclude the program execution gracefully. This involves closing any open graphical user interface windows displaying images, and freeing up system resources as needed.
+
 ## Program:
+
 ### Developed By:
 ### Register Number: 
 i) #To Read,display the image
